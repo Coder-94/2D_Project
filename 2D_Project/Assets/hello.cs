@@ -8,6 +8,7 @@ public class hello : MonoBehaviour
     void Start()
     {
         //테스트용 스크립트
+        //테스트용 스크립트 2 << 이게 제대로 보이면 성공
     }
 
     // Update is called once per frame
