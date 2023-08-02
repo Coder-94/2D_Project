@@ -9,6 +9,7 @@ public class hello : MonoBehaviour
     {
         //테스트용 스크립트
         //테스트용 스크립트 2 << 이게 제대로 보이면 성공
+        //테스트용 스크립트 3 << 최종의 최종의 최종
     }
 
     // Update is called once per frame
