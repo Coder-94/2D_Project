@@ -11,7 +11,7 @@ public class PlayerAnimation : MonoBehaviour
     }
     private void Update()
     {
-        if()
+      
     }
 
 
