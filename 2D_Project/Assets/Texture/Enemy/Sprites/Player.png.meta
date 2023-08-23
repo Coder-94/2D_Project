@@ -1,31 +1,34 @@
 fileFormatVersion: 2
-guid: 5d4daff38e3d9174b873918abcf2c1d4
+guid: 10f3cacccb0c4c547be76836eba20664
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8596640243658272642
+      213: -6447722072507503168
     second: Idle 0
   - first:
-      213: -7642239419928554605
+      213: 2962027833772318483
     second: Idle 1
   - first:
-      213: -3876759189950653258
-    second: Idle 2
-  - first:
-      213: -5720429097031363069
-    second: Idle 3
-  - first:
-      213: -7911572535675539837
+      213: -2453208753318357113
     second: Run 0
   - first:
-      213: 5398807837072792716
+      213: 6348790710242686107
     second: Run 1
   - first:
-      213: -3763824636803078212
+      213: 5513914976837039818
     second: Run 2
   - first:
-      213: 8273598715916126338
+      213: -434675778434299504
     second: Run 3
+  - first:
+      213: -5761754228987130096
+    second: Jump 0
+  - first:
+      213: 5907920678353447086
+    second: Jump 1
+  - first:
+      213: -6086044393419928071
+    second: Jump 2
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -149,6 +152,30 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 128
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 128
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -157,7 +184,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 17
+        y: 34
         width: 16
         height: 16
       alignment: 0
@@ -167,8 +194,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 28f241131c66d4770800000000000000
-      internalID: 8596640243658272642
+      spriteID: 0cdaeb1cfe61586a0800000000000000
+      internalID: -6447722072507503168
       vertices: []
       indices: 
       edges: []
@@ -178,6 +205,48 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 17
+        y: 34
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31f91de0f9c3b1920800000000000000
+      internalID: 2962027833772318483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run 0
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 34
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7879492f2a374fdd0800000000000000
+      internalID: -2453208753318357113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run 1
+      rect:
+        serializedVersion: 2
+        x: 0
         y: 17
         width: 16
         height: 16
@@ -188,14 +257,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 393dba6ecbf41f590800000000000000
-      internalID: -7642239419928554605
+      spriteID: b94b05d738f6b1850800000000000000
+      internalID: 6348790710242686107
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle 2
+      name: Run 2
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 17
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac6f31c157c558c40800000000000000
+      internalID: 5513914976837039818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run 3
       rect:
         serializedVersion: 2
         x: 34
@@ -209,35 +299,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6bc92438e0cf23ac0800000000000000
-      internalID: -3876759189950653258
+      spriteID: 09905f9bea8b7f9f0800000000000000
+      internalID: -434675778434299504
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle 3
-      rect:
-        serializedVersion: 2
-        x: 51
-        y: 17
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 30613ac5b04fc90b0800000000000000
-      internalID: -5720429097031363069
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Run 0
+      name: Jump 0
       rect:
         serializedVersion: 2
         x: 0
@@ -251,14 +320,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 38ea25432b2743290800000000000000
-      internalID: -7911572535675539837
+      spriteID: 01f0e1a4e032a00b0800000000000000
+      internalID: -5761754228987130096
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Run 1
+      name: Jump 1
       rect:
         serializedVersion: 2
         x: 17
@@ -272,14 +341,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c8c915baf1b6cea40800000000000000
-      internalID: 5398807837072792716
+      spriteID: ea821723e862df150800000000000000
+      internalID: 5907920678353447086
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Run 2
+      name: Jump 2
       rect:
         serializedVersion: 2
         x: 34
@@ -293,29 +362,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cb72d763f6534cbc0800000000000000
-      internalID: -3763824636803078212
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Run 3
-      rect:
-        serializedVersion: 2
-        x: 51
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2880f4c523ab1d270800000000000000
-      internalID: 8273598715916126338
+      spriteID: 9fd82f29ed60a8ba0800000000000000
+      internalID: -6086044393419928071
       vertices: []
       indices: 
       edges: []
@@ -331,14 +379,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Idle 0: 8596640243658272642
-      Idle 1: -7642239419928554605
-      Idle 2: -3876759189950653258
-      Idle 3: -5720429097031363069
-      Run 0: -7911572535675539837
-      Run 1: 5398807837072792716
-      Run 2: -3763824636803078212
-      Run 3: 8273598715916126338
+      Idle 0: -6447722072507503168
+      Idle 1: 2962027833772318483
+      Jump 0: -5761754228987130096
+      Jump 1: 5907920678353447086
+      Jump 2: -6086044393419928071
+      Run 0: -2453208753318357113
+      Run 1: 6348790710242686107
+      Run 2: 5513914976837039818
+      Run 3: -434675778434299504
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
