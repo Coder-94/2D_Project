@@ -73,3 +73,4 @@ crashlytics-build.properties
 
 # End of https://www.toptal.com/developers/gitignore/api/unity
 *.log
+2D_Project/Logs/AssetImportWorker0.log
