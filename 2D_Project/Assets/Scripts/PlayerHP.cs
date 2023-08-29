@@ -28,7 +28,7 @@ public class PlayerHP : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Hp == 0)
+        if (Hp <= 0)
         {
             if (!isDie)
                 Die();
@@ -50,6 +50,7 @@ public class PlayerHP : MonoBehaviour
         if (collision.gameObject.tag == "Enemy")
         {
             onDamaged(collision.transform.position);
+
         }
     }
     void onDamaged(Vector2 targetPos)
